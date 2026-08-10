@@ -7,10 +7,24 @@ Projeto de analytics para recrutadores de Dados: transforma vendas brutas em uma
 [![MIT License](https://img.shields.io/badge/License-MIT-black)](LICENSE)
 ![Linguagem principal Python](https://img.shields.io/badge/Linguagem%20principal-Python-3776AB)
 
-### Resumo em 90 segundos
-- Problema resolvido: transformar dados operacionais em indicadores de negocio confiaveis.
-- Diferencial tecnico: pipeline com idempotencia, SCD Tipo 2 e validacao de schema.
-- Evidencia pratica: dataset sintetico realista, testes automatizados e visuais prontos para portfolio.
+## Perfil do projeto
+Este repositorio apresenta uma solucao completa de analytics para varejo, com foco em engenharia de dados, modelagem analitica e storytelling visual. O resultado e uma base que pode ser usada para demonstrar capacidade tecnica em entrevistas, portifolio e processos seletivos.
+
+### Competencias destacadas
+- ETL/ELT com pipeline reproducivel
+- Modelagem estrela e historico de clientes com SCD Tipo 2
+- Qualidade de dados, testes e automacao
+- Visualizacao analitica preparada para Power BI
+
+### Resumo executivo
+- Problema resolvido: transformar dados operacionais fragmentados em indicadores de negocio confiaveis para decisoes de receita, margem e clientes.
+- Diferencial tecnico: pipeline com idempotencia, modelagem estrela, SCD Tipo 2 e validacao de schema para reduzir risco operacional.
+- Evidencia pratica: dados sinteticos realistas, testes automatizados e visuais prontos para demonstrar maturidade em analytics engineering.
+
+### O que este projeto demonstra
+- Capacidade de construir uma esteira analitica end-to-end, desde ingestao ate entrega de dashboards.
+- Disciplina para tratar qualidade de dados, regras de negocio e reprocessamento sem duplicacao de fatos.
+- Boa comunicacao de resultado: o projeto e estruturado para ser apresentado tanto a recrutadores quanto a times de negocio.
 
 ### O problema
 Times de negocio em varejo costumam receber dados operacionais fragmentados, mas nao uma visao confiavel de quais clientes sustentam a receita, quais categorias carregam margem e onde a performance esta desacelerando. Este projeto resolve esse gap com uma esteira analitica que entrega historico consistente, consultas rapidas e base pronta para Power BI.
