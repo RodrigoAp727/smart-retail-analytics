@@ -3,6 +3,7 @@
 Projeto de analytics para recrutadores de Dados: transforma vendas brutas em uma base analitica que ajuda times de varejo a decidir onde crescer receita, proteger margem e entender melhor a performance de clientes, produtos e canais.
 
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
+[![CI](https://github.com/RodrigoAp727/smart-retail-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/RodrigoAp727/smart-retail-analytics/actions/workflows/ci.yml)
 [![MIT License](https://img.shields.io/badge/License-MIT-black)](LICENSE)
 ![Linguagem principal Python](https://img.shields.io/badge/Linguagem%20principal-Python-3776AB)
 
