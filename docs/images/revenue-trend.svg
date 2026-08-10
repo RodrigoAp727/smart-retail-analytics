@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#f8fafc"/>
+  <rect x="80" y="80" width="1240" height="640" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3"/>
+  <text x="700" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#0f172a">Evolução da receita mensal</text>
+  <text x="700" y="176" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#64748b">Receita acumulada por mês em cenário sintético</text>
+  <line x1="180" y1="620" x2="1180" y2="620" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="180" y1="620" x2="180" y2="180" stroke="#94a3b8" stroke-width="3"/>
+  <path d="M180 560 C250 530, 310 450, 360 430 S470 390, 540 370 S650 330, 720 300 S860 250, 940 220 S1060 180, 1180 180" fill="none" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="360" cy="430" r="9" fill="#1d4ed8"/>
+  <circle cx="540" cy="370" r="9" fill="#1d4ed8"/>
+  <circle cx="720" cy="300" r="9" fill="#1d4ed8"/>
+  <circle cx="940" cy="220" r="9" fill="#1d4ed8"/>
+  <circle cx="1180" cy="180" r="9" fill="#1d4ed8"/>
+  <text x="180" y="660" text-anchor="middle" font-size="16" fill="#475569">Jan</text>
+  <text x="360" y="660" text-anchor="middle" font-size="16" fill="#475569">Mar</text>
+  <text x="540" y="660" text-anchor="middle" font-size="16" fill="#475569">Mai</text>
+  <text x="720" y="660" text-anchor="middle" font-size="16" fill="#475569">Jul</text>
+  <text x="940" y="660" text-anchor="middle" font-size="16" fill="#475569">Set</text>
+  <text x="1180" y="660" text-anchor="middle" font-size="16" fill="#475569">Dez</text>
+</svg>

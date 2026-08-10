@@ -20,6 +20,34 @@ Times de negocio em varejo costumam receber dados operacionais fragmentados, mas
 
 Os dados sinteticos entram como CSVs mensais para simular ingestao incremental realista. A etapa de extract valida schema e identifica apenas particoes novas; a transform aplica padronizacao, regras de nulos e metricas derivadas; a load grava um modelo estrela em PostgreSQL com upsert idempotente e historico SCD Tipo 2 em clientes. O resultado final e uma base analitica adequada para dashboards executivos e operacionais no Power BI.
 
+### Visao visual do projeto
+
+<div align="center">
+  <img src="docs/images/architecture-overview.svg" alt="Visao geral da arquitetura" width="100%" />
+</div>
+
+<div align="center">
+  <img src="docs/images/pipeline-flow.svg" alt="Fluxo do pipeline analitico" width="100%" />
+</div>
+
+<div align="center">
+  <img src="docs/images/star-schema.svg" alt="Modelo estrela do projeto" width="100%" />
+</div>
+
+### Graficos ilustrativos
+
+<div align="center">
+  <img src="docs/images/revenue-trend.svg" alt="Grafico de tendencia de receita" width="100%" />
+</div>
+
+<div align="center">
+  <img src="docs/images/channel-mix.svg" alt="Grafico de mix de receita por canal" width="100%" />
+</div>
+
+<div align="center">
+  <img src="docs/images/customer-abc.svg" alt="Grafico de classificacao ABC de clientes" width="100%" />
+</div>
+
 ### Decisoes tecnicas de destaque
 - SCD Tipo 2 em `dim_customer` preserva historico de segmento e regiao, o que permite comparar performance sem perder contexto de mudancas cadastrais.
 - Upsert idempotente com `ON CONFLICT` permite rerun, backfill e reprocessamento sem duplicar fatos, algo esperado em pipeline de dados confiavel.
@@ -116,6 +144,12 @@ Enquanto os prints reais do Power BI nao estiverem exportados, use os previews g
 - Diagrama de arquitetura e previews visuais versionados no repositório.
 - Pipeline validado localmente com saidas analiticas concretas.
 - Templates de issue/PR e guia de contribuicao prontos para trabalho colaborativo.
+
+### Governanca profissional
+- Codigo de conduta: `CODE_OF_CONDUCT.md`
+- Politica de seguranca: `SECURITY.md`
+- Guia de suporte: `SUPPORT.md`
+- Atualizacao automatica de dependencias: `.github/dependabot.yml`
 
 ### Publicacao no GitHub
 Use o roteiro final em `CHECKLIST_PUBLICACAO_GITHUB.md` para publicar com padrao profissional e sem risco de esquecer itens criticos.

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#f8fafc"/>
+  <rect x="70" y="70" width="1260" height="660" rx="30" fill="#ffffff" stroke="#e2e8f0" stroke-width="3"/>
+  <text x="700" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="36" fill="#0f172a">Fluxo do pipeline analítico</text>
+  <text x="700" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#475569">Do dado bruto até a decisão de negócio</text>
+
+  <rect x="140" y="250" width="220" height="150" rx="20" fill="#0f766e"/>
+  <text x="250" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#ecfeff">1. Ingestão</text>
+  <text x="250" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ccfbf1">CSV e partições mensais</text>
+
+  <rect x="430" y="250" width="220" height="150" rx="20" fill="#2563eb"/>
+  <text x="540" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#eff6ff">2. Validação</text>
+  <text x="540" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#dbeafe">Schema e qualidade</text>
+
+  <rect x="720" y="250" width="220" height="150" rx="20" fill="#7c3aed"/>
+  <text x="830" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#f5f3ff">3. Transformação</text>
+  <text x="830" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ede9fe">Métricas e regras de negócio</text>
+
+  <rect x="1010" y="250" width="220" height="150" rx="20" fill="#dc2626"/>
+  <text x="1120" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#fef2f2">4. Publicação</text>
+  <text x="1120" y="348" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#fee2e2">Dashboards e relatórios</text>
+
+  <path d="M360 325 L430 325" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M650 325 L720 325" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M940 325 L1010 325" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="260" y="500" width="880" height="140" rx="24" fill="#e0f2fe" stroke="#38bdf8" stroke-width="2"/>
+  <text x="700" y="560" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#0f172a">Saídas prontas para análise:</text>
+  <text x="700" y="600" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#334155">métricas mensais, ABC de clientes e visão executiva</text>
+</svg>

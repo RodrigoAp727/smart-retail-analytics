@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#f8fafc"/>
+  <rect x="80" y="80" width="1240" height="640" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3"/>
+  <text x="700" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#0f172a">Mix de receita por canal</text>
+  <text x="700" y="176" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#64748b">Distribuição percentual por canal de vendas</text>
+  <rect x="220" y="270" width="120" height="260" rx="12" fill="#2563eb"/>
+  <rect x="420" y="220" width="120" height="310" rx="12" fill="#3b82f6"/>
+  <rect x="620" y="300" width="120" height="230" rx="12" fill="#60a5fa"/>
+  <rect x="820" y="350" width="120" height="180" rx="12" fill="#93c5fd"/>
+  <rect x="1020" y="420" width="120" height="110" rx="12" fill="#bfdbfe"/>
+  <text x="280" y="560" text-anchor="middle" font-size="18" fill="#334155">Loja</text>
+  <text x="480" y="560" text-anchor="middle" font-size="18" fill="#334155">E-commerce</text>
+  <text x="680" y="560" text-anchor="middle" font-size="18" fill="#334155">Marketplace</text>
+  <text x="880" y="560" text-anchor="middle" font-size="18" fill="#334155">Atacado</text>
+  <text x="1080" y="560" text-anchor="middle" font-size="18" fill="#334155">Pop-up</text>
+</svg>

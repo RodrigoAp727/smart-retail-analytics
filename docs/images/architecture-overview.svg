@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#0f172a"/>
+  <rect x="80" y="90" width="1240" height="620" rx="28" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <text x="700" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" fill="#f8fafc">Arquitetura do smart retail analytics</text>
+  <text x="700" y="190" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#cbd5e1">Fluxo end-to-end: dados brutos → ETL → modelo estrela → dashboards</text>
+
+  <rect x="140" y="250" width="240" height="140" rx="20" fill="#1d4ed8"/>
+  <text x="260" y="305" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#eff6ff">Dados brutos</text>
+  <text x="260" y="338" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#dbeafe">CSV mensais</text>
+
+  <rect x="430" y="250" width="240" height="140" rx="20" fill="#2563eb"/>
+  <text x="550" y="305" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#eff6ff">Extract</text>
+  <text x="550" y="338" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#dbeafe">Validação e ingestão</text>
+
+  <rect x="720" y="250" width="240" height="140" rx="20" fill="#3b82f6"/>
+  <text x="840" y="305" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#eff6ff">Transform</text>
+  <text x="840" y="338" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#dbeafe">Limpeza e métricas</text>
+
+  <rect x="1010" y="250" width="250" height="140" rx="20" fill="#60a5fa"/>
+  <text x="1135" y="305" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#eff6ff">Load</text>
+  <text x="1135" y="338" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#dbeafe">PostgreSQL + SCD2</text>
+
+  <rect x="420" y="470" width="560" height="160" rx="24" fill="#0f766e"/>
+  <text x="700" y="525" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#ecfeff">Modelo estrela</text>
+  <text x="700" y="562" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ccfbf1">Fato de vendas + dimensões de cliente, produto, tempo e canal</text>
+
+  <rect x="1040" y="470" width="220" height="160" rx="24" fill="#14b8a6"/>
+  <text x="1150" y="525" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#ecfeff">Power BI</text>
+  <text x="1150" y="562" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ccfbf1">Dashboards executivos</text>
+
+  <path d="M380 320 L430 320" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M670 320 L720 320" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M960 320 L1010 320" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M700 390 L700 470" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M980 550 L1040 550" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+</svg>

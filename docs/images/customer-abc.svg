@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#f8fafc"/>
+  <rect x="80" y="80" width="1240" height="640" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3"/>
+  <text x="700" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#0f172a">Classificação ABC de clientes</text>
+  <text x="700" y="176" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#64748b">Clientes de maior valor concentrando a receita principal</text>
+  <rect x="240" y="320" width="220" height="220" rx="18" fill="#16a34a"/>
+  <rect x="520" y="260" width="220" height="280" rx="18" fill="#2563eb"/>
+  <rect x="800" y="400" width="220" height="140" rx="18" fill="#f59e0b"/>
+  <text x="350" y="570" text-anchor="middle" font-size="22" fill="#ecfdf5">Classe A</text>
+  <text x="630" y="570" text-anchor="middle" font-size="22" fill="#eff6ff">Classe B</text>
+  <text x="910" y="570" text-anchor="middle" font-size="22" fill="#fffbeb">Classe C</text>
+</svg>
