@@ -1,0 +1,11 @@
+product_id,product_name,product_category,product_subcategory,unit_cost,unit_price
+P0001,Smart Home Item 001,Electronics,Smart Home,359.37,659.26
+P0002,Accessories Item 002,Fashion,Accessories,266.01,341.26
+P0003,Gaming Item 003,Electronics,Gaming,70.49,91.53
+P0004,Skincare Item 004,Beauty,Skincare,44.27,61.25
+P0005,Furniture Item 005,Home,Furniture,55.77,94.01
+P0006,Furniture Item 006,Home,Furniture,530.73,696.9
+P0007,Kitchen Item 007,Home,Kitchen,188.9,347.35
+P0008,Decor Item 008,Home,Decor,521.45,639.79
+P0009,Notebook Item 009,Electronics,Notebook,21.48,36.58
+P0010,Decor Item 010,Home,Decor,22.07,29.48

@@ -1,0 +1,12 @@
+CREATE SCHEMA IF NOT EXISTS analytics;
+
+CREATE TABLE IF NOT EXISTS analytics.etl_control (
+    control_id BIGSERIAL PRIMARY KEY,
+    source_file VARCHAR(100) NOT NULL UNIQUE,
+    source_month DATE NOT NULL,
+    load_mode VARCHAR(20) NOT NULL,
+    load_timestamp TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    rows_loaded INTEGER NOT NULL DEFAULT 0,
+    status VARCHAR(20) NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

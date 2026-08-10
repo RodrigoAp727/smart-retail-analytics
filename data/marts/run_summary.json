@@ -1,0 +1,10 @@
+{
+  "rows_extracted": 20000,
+  "rows_transformed": 20000,
+  "files_processed": 24,
+  "total_net_revenue": 32004048.56,
+  "avg_profit_margin_pct": -2.2095,
+  "transformed_file": "data\\processed\\sales_transformed.csv",
+  "monthly_metrics_file": "data\\marts\\monthly_metrics.csv",
+  "customer_abc_file": "data\\marts\\customer_abc.csv"
+}

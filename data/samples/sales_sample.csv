@@ -1,0 +1,26 @@
+sale_id,sale_date,customer_id,customer_name,customer_segment,customer_region,product_id,product_name,product_category,product_subcategory,store_id,store_channel,store_region,quantity,unit_cost,unit_price,discount_amount,shipping_cost
+S000001,2025-12-27,C0018,Luiz Miguel Oliveira,Varejo,Sudeste,P0095,Sportswear Item 095,Fashion,Sportswear,ST009,Physical,Sudeste,1.0,589.59,738.84,141.16,0.0
+S000002,2024-07-27,C0092,Murilo Araújo,PME,Norte,P0177,Printing Item 177,Office,Printing,ST010,Physical,Sul,2.0,575.01,954.09,117.48,0.0
+S000003,2025-05-02,C0205,Alícia Teixeira,Corporativo,Centro-Oeste,P0033,Accessories Item 033,Fashion,Accessories,ST010,Physical,Sul,1.0,127.11,208.7,0.0,0.0
+S000004,2025-05-29,C0154,Julia Andrade,Varejo,Sul,P0200,Sportswear Item 200,Fashion,Sportswear,ST007,Physical,Sudeste,5.0,134.66,178.1,0.0,0.0
+S000005,2025-03-18,C0466,Aylla Souza,Varejo,Sudeste,P0092,Haircare Item 092,Beauty,Haircare,ST005,Physical,Centro-Oeste,3.0,568.98,675.11,0.0,
+S000006,2025-11-26,C0437,Alexandre da Mota,Varejo,Norte,P0194,Mobile Item 194,Electronics,Mobile,ST013,Physical,Nordeste,2.0,133.72,,0.0,0.0
+S000007,2025-12-10,C0340,Thomas Santos,Varejo,Nordeste,P0138,Fragrance Item 138,Beauty,Fragrance,ST008,Physical,Centro-Oeste,2.0,594.84,733.1,0.0,0.0
+S000008,2024-10-24,C0332,Caroline da Paz,PME,Nordeste,P0039,Skincare Item 039,Beauty,Skincare,ST012,Physical,Centro-Oeste,2.0,441.99,592.48,0.0,0.0
+S000009,2025-11-29,C0107,Otto Ribeiro,Varejo,Sudeste,P0090,Storage Item 090,Office,Storage,ST002,Online,Nordeste,2.0,502.9,852.26,0.0,
+S000010,2024-11-15,C0176,Lívia Borges,PME,Sudeste,P0168,Skincare Item 168,Beauty,Skincare,ST004,Physical,Centro-Oeste,4.0,,318.34,0.0,0.0
+S000011,2024-04-10,C0112,Letícia Marques,Varejo,Sudeste,P0180,Storage Item 180,Office,Storage,ST003,Online,Sul,1.0,499.69,672.49,0.0,34.64
+S000012,2024-07-31,C0081,Nina Siqueira,Varejo,Sudeste,P0036,Mobile Item 036,Electronics,Mobile,ST008,Physical,Centro-Oeste,1.0,488.02,634.72,0.0,0.0
+S000013,2025-05-07,C0085,Melissa Carvalho,Varejo,Nordeste,P0086,Furniture Item 086,Home,Furniture,ST003,Online,Sul,4.0,472.11,557.37,0.0,23.65
+S000014,2025-10-29,C0102,Anna Liz Cirino,PME,Nordeste,P0042,Fragrance Item 042,Beauty,Fragrance,ST005,Physical,Centro-Oeste,2.0,348.18,475.58,49.49,0.0
+S000015,2025-01-26,C0132,Daniel Barbosa,Varejo,Nordeste,P0136,Makeup Item 136,Beauty,Makeup,ST013,Physical,Nordeste,1.0,265.95,426.77,0.0,
+S000016,2024-08-01,C0055,Sr. Vitor Hugo Vasconcelos,Varejo,Sul,P0127,Apparel Item 127,Fashion,Apparel,ST010,Physical,Sul,3.0,296.49,489.91,6.25,0.0
+S000017,2024-01-14,C0437,Alexandre da Mota,Varejo,Norte,P0038,Accessories Item 038,Fashion,Accessories,ST007,Physical,Sudeste,1.0,575.57,724.59,0.0,0.0
+S000018,2025-11-13,C0250,Isabelly Sá,Varejo,Nordeste,P0143,Makeup Item 143,Beauty,Makeup,ST010,Physical,Sul,2.0,580.67,1013.82,0.0,0.0
+S000019,2025-01-24,C0446,Maria Cecília Moraes,Corporativo,Sudeste,P0156,Makeup Item 156,Beauty,Makeup,ST005,Physical,Centro-Oeste,,91.86,125.11,0.0,0.0
+S000020,2024-07-15,C0084,Gael Correia,Varejo,Sudeste,P0105,Accessories Item 105,Fashion,Accessories,ST008,Physical,Centro-Oeste,1.0,42.46,61.31,0.0,0.0
+S000021,2025-11-01,C0104,Nathan Campos,Varejo,Norte,P0169,Sportswear Item 169,Fashion,Sportswear,ST014,Physical,Sudeste,1.0,170.17,207.23,0.0,0.0
+S000022,2024-12-18,C0241,Sr. Thiago Ramos,Varejo,Norte,P0182,Apparel Item 182,Fashion,Apparel,ST012,Physical,Centro-Oeste,1.0,367.9,517.24,0.0,0.0
+S000023,2025-03-22,C0038,Maria Cecília Câmara,Corporativo,Centro-Oeste,P0098,Ergonomics Item 098,Office,Ergonomics,ST004,Physical,Centro-Oeste,4.0,162.43,299.87,0.0,0.0
+S000024,2025-03-24,C0318,Pedro Henrique Porto,Varejo,Nordeste,P0181,Skincare Item 181,Beauty,Skincare,ST004,Physical,Centro-Oeste,8.0,94.09,114.57,0.0,0.0
+S000025,2024-10-14,C0270,Dra. Ester Correia,Corporativo,Nordeste,P0002,Accessories Item 002,Fashion,Accessories,ST015,Physical,Sudeste,2.0,266.01,341.26,0.0,0.0

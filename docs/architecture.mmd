@@ -1,0 +1,13 @@
+flowchart LR
+    A[Synthetic Data Generator\nFaker + Monthly CSV partitions] --> B[Extract\nSchema validation + incremental file selection]
+    B --> C[Transform\nNull handling + business rules + derived metrics]
+    C --> D[Load\nSQLAlchemy Core + idempotent upsert]
+    C --> E[SCD Type 2\nCustomer history tracking]
+    E --> D
+    D --> F[(PostgreSQL\nStar Schema)]
+    F --> G[dim_customer\nSCD2]
+    F --> H[dim_product]
+    F --> I[dim_time]
+    F --> J[dim_store_channel]
+    F --> K[fact_sales]
+    F --> L[Power BI\nExecutive + Operational Dashboards]

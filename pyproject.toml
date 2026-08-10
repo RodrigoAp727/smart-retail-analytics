@@ -1,0 +1,17 @@
+[project]
+name = "smart-retail-analytics"
+version = "0.1.0"
+description = "Retail analytics pipeline with ETL, star schema, and dashboard-ready outputs"
+requires-python = ">=3.13"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+ignore = ["E501", "UP017"]

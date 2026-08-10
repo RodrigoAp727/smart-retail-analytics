@@ -1,0 +1,11 @@
+customer_id,customer_name,customer_segment,customer_region
+C0001,Brenda Alves,Corporativo,Norte
+C0002,Sra. Isabelly Câmara,Varejo,Nordeste
+C0003,Cauã Rocha,Corporativo,Sudeste
+C0004,Dra. Aurora Pastor,PME,Norte
+C0005,Ana Beatriz Alves,Varejo,Norte
+C0006,Henrique da Conceição,Varejo,Sudeste
+C0007,Amanda Novais,Varejo,Nordeste
+C0008,Yago Leão,Corporativo,Sudeste
+C0009,Pietro Pastor,Varejo,Sudeste
+C0010,André Teixeira,PME,Norte
