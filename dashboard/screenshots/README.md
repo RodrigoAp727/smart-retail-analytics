@@ -4,6 +4,8 @@ Enquanto os prints reais nao forem exportados do Power BI, mantenha esta pasta c
 
 ## Arquivos esperados
 
+Os seguintes arquivos ja estao presentes na pasta e podem servir como base visual para o portfolio:
+
 1. `executive-overview.png`
    - Cards de receita total, margem total, ticket medio e clientes ativos.
    - Grafico de linha com tendencia mensal.
@@ -24,4 +26,4 @@ Enquanto os prints reais nao forem exportados do Power BI, mantenha esta pasta c
 
 Nao invente prints sintéticos no lugar do dashboard real. Exporte imagens do Power BI assim que o relatorio estiver conectado ao PostgreSQL local.
 
-Enquanto isso, os previews automaticos deste repositório podem ser usados como apoio visual inicial para apresentacao tecnica.
+Enquanto isso, os previews automaticos deste repositorio podem ser usados como apoio visual inicial para apresentacao tecnica, entrevistas e demonstracoes de negocio. Se o `.pbix` definitivo for criado no futuro, substitua estes arquivos pelos screenshots reais exportados do Power BI.

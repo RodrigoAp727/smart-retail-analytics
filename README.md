@@ -1,6 +1,8 @@
 # Plataforma de Analytics para Varejo
 
-Projeto de analytics para recrutadores de Dados: transforma vendas brutas em uma base analitica que ajuda times de varejo a decidir onde crescer receita, proteger margem e entender melhor a performance de clientes, produtos e canais.
+Projeto de analytics com foco em engenharia de dados, modelagem analitica e storytelling visual para varejo. A solução transforma vendas brutas em uma base analitica confiável, permitindo acompanhar receita, margem, clientes, categorias e canais com uma visão mais estratégica para tomada de decisão.
+
+Este repositório foi estruturado para demonstrar maturidade técnica em pipelines de dados, qualidade de dados, automação e apresentação de resultados para negócios e recrutadores.
 
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-blue)
 [![CI](https://github.com/RodrigoAp727/smart-retail-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/RodrigoAp727/smart-retail-analytics/actions/workflows/ci.yml)
@@ -15,6 +17,12 @@ Este repositorio apresenta uma solucao completa de analytics para varejo, com fo
 - Modelagem estrela e historico de clientes com SCD Tipo 2
 - Qualidade de dados, testes e automacao
 - Visualizacao analitica preparada para Power BI
+
+### Destaques para portfolio
+- Pipeline end-to-end capaz de transformar dados operacionais em indicadores de negocio prontos para analise.
+- Estrutura analitica organizada para apoiar decisoes de receita, margem e performance de clientes.
+- Evidencias visuais e documentacao tecnica preparadas para entrevistas, apresentacoes e avaliacao tecnica.
+- Base reprodutivel, com dados sintéticos realistas e execucao local simplificada.
 
 ### Resumo executivo
 - Problema resolvido: transformar dados operacionais fragmentados em indicadores de negocio confiaveis para decisoes de receita, margem e clientes.
@@ -115,11 +123,11 @@ Projeto desenhado para evidenciar maturidade de Analista de Dados e Analista Fin
 - Topics: data-engineering, analytics, data-analytics, financial-analysis, etl, python, postgresql, docker, power-bi, star-schema, scd2, sqlalchemy, pytest, github-actions
 
 ### Screenshots do dashboard
-Os PNGs finais ficam em `dashboard/screenshots/` com estes nomes:
-- `executive-overview.png`
-- `operational-overview.png`
-- `customer-abc-analysis.png`
-- `monthly-trends.png`
+Os PNGs finais ficam em [dashboard/screenshots](dashboard/screenshots) com estes nomes:
+- [dashboard/screenshots/executive-overview.png](dashboard/screenshots/executive-overview.png)
+- [dashboard/screenshots/operational-overview.png](dashboard/screenshots/operational-overview.png)
+- [dashboard/screenshots/customer-abc-analysis.png](dashboard/screenshots/customer-abc-analysis.png)
+- [dashboard/screenshots/monthly-trends.png](dashboard/screenshots/monthly-trends.png)
 
 Enquanto os prints reais do Power BI nao estiverem exportados, use os previews gerados automaticamente e siga o guia em [dashboard/README.md](dashboard/README.md) e o checklist em [dashboard/screenshots/README.md](dashboard/screenshots/README.md).
 

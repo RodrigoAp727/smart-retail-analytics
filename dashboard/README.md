@@ -87,7 +87,18 @@ RETURN
 Margem % = DIVIDE ( [Margem Total], [Receita Total] )
 ```
 
-## 4. O que substituir manualmente
+## 4. Preview atual do dashboard
+
+Enquanto o arquivo Power BI real nao estiver criado, o repositorio ja possui previews visuais gerados automaticamente em `dashboard/screenshots/` para apoiar a apresentacao tecnica do projeto. Os arquivos atuais sao:
+
+- `executive-overview.png`
+- `operational-overview.png`
+- `customer-abc-analysis.png`
+- `monthly-trends.png`
+
+Esses previews funcionam como uma primeira versao de evidencias visuais para portfolio, entrevistas e demonstracoes de negocio. Quando o `.pbix` definitivo estiver pronto, substitua essas imagens pelos screenshots exportados do Power BI.
+
+## 5. O que substituir manualmente
 
 1. Troque `smart_retail.pbix` por um arquivo Power BI real.
 2. Exporte 3 a 4 screenshots para `dashboard/screenshots/`.

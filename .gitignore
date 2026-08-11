@@ -16,3 +16,7 @@ dashboard/screenshots/*.png
 dashboard/screenshots/*.jpg
 dashboard/screenshots/*.jpeg
 dashboard/screenshots/*.gif
+!dashboard/screenshots/*.png
+!dashboard/screenshots/*.jpg
+!dashboard/screenshots/*.jpeg
+!dashboard/screenshots/*.gif
